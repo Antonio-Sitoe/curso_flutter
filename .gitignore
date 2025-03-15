@@ -1,0 +1,42 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+ios/
+linux/
+windows/
+
+# IntelliJ related
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code related
+.vscode/
+*.code-workspace
+
+# MacOS
+.DS_Store
+
+# Linux
+*.lock
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Generated files
+*.log
+*.tmp
+*.swp
+
+# Others
+.env
