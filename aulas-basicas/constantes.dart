@@ -2,7 +2,7 @@ import 'dart:io';
 
 main() {
   // Area da circunferencias
-  final PI = 3.1415;
+  const PI = 3.1415;
 
   var txt = stdin.readLineSync() ?? '';
   final raio = double.parse(txt);
