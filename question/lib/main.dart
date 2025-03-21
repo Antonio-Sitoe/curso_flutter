@@ -12,7 +12,9 @@ class PerguntaApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text('Perguntas')),
-        body: Text("Ola fluter"),
+        body: Column(
+          children: [Text('Primeira Pergunta', style: TextStyle(fontSize: 30))],
+        ),
       ),
     );
   }
