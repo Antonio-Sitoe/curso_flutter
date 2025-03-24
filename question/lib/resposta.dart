@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Button extends StatelessWidget {
+class Resposta extends StatelessWidget {
   final VoidCallback _responder;
-  final int _perguntaSelecionada;
+  final String textoButton;
 
-  Button(this._responder, this._perguntaSelecionada);
+  Resposta(this._responder, this.textoButton);
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class Button extends StatelessWidget {
         ),
         onPressed: this._responder,
         child: Text(
-          'Resposta ${_perguntaSelecionada}',
+          textoButton,
           style: TextStyle(color: Colors.white), // Ensures text is readable
         ),
       ),
